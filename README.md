@@ -1,12 +1,12 @@
 # LION SCHOOL
 
-| MOBILE                                                                                    |                                           MOBILE                                            |
+| MOBILE                                                                                    |                                           DESKTOP                                            |
 | :---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------: |
-| <a href="https://viniciuswars.netlify.app/"><img heigth="400" src="./img/mobile.png"/></a> | <a href="https://viniciuswars.netlify.app/"><img heigth="400" src="./img/mobile-inside.png"  /></a> |
+| <a href="https://viniciuswars.netlify.app/"><img heigth="400" src="./img/mobile.png"/></a> | <a href="https://viniciuswars.netlify.app/"><img heigth="400" src="./img/desktop.png"  /></a> |
 
-| DESKTOP                                                                                    |                                           DESKTOP                                            |
+| MOBILE                                                                                    |                                           DESKTOP                                            |
 | :---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------: |
-| <a href="https://viniciuswars.netlify.app/"><img heigth="400" src="./img/desktop.png"/></a> | <a href="https://viniciuswars.netlify.app/"><img heigth="400" src="./img/inside-desktop.png"  /></a> |
+| <a href="https://viniciuswars.netlify.app/"><img heigth="400" src="./img/mobile-inside.png"/></a> | <a href="https://viniciuswars.netlify.app/"><img heigth="400" src="./img/inside-desktop.png"  /></a> |
 
 
 ## [Clique aqui](https://viniciuswars.netlify.app/) para acessar o site
