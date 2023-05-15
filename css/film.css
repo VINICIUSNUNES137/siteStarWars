@@ -1,0 +1,87 @@
+.film {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+
+.content {
+  display: flex;
+}
+
+.description {
+  padding-left: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 400px;
+  text-align: justify;
+}
+
+.director::before {
+  content: 'DIRECTOR: ';
+  font-weight: 800;
+}
+.producer::before {
+  content: 'PRODUCER: ';
+  font-weight: 800;
+}
+.date::before {
+  content: 'DATE: ';
+  font-weight: 800;
+}
+.openning::before {
+  content: 'OPENNING: ';
+  font-weight: 800;
+}
+
+.openning {
+  width: 300px;
+}
+
+.card-container {
+  width: 100%;
+  place-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.planets {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 720px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  .description {
+    flex-direction: column;
+    align-items: self-start;
+    text-align: start;
+    width: 100%;
+  }
+
+  .image-film {
+    height: 300px;
+    width: fit-content;
+  }
+  .title {
+    text-align: center;
+  }
+}

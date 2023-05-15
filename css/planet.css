@@ -1,0 +1,100 @@
+.planet__image {
+  width: 50vw;
+}
+
+.card-planet {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -50vw;
+  display: flex;
+  color: black;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.info-planet {
+  background-color: white;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2rem;
+  text-align: left;
+}
+
+.planet {
+  height: 100%;
+}
+
+.planet__title {
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  font-weight: 800;
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+  padding-bottom: 32px;
+}
+.planet__rotation_period::before {
+  font-weight: 800;
+  content: 'ROTATION: ';
+}
+.planet__orbital_period::before {
+  font-weight: 800;
+
+  content: 'ORBITAL PERIOD: ';
+}
+.planet__diameter::before {
+  font-weight: 800;
+
+  content: 'DIAMETER: ';
+}
+.planet__climate::before {
+  font-weight: 800;
+
+  content: 'CLIMATE: ';
+}
+.planet__gravity::before {
+  font-weight: 800;
+
+  content: 'GRAVITY: ';
+}
+.planet__terrain::before {
+  font-weight: 800;
+
+  content: 'TERRAIN: ';
+}
+.planet__surface_water::before {
+  font-weight: 800;
+
+  content: 'SURFACE WATER: ';
+}
+.planet__population::before {
+  font-weight: 800;
+
+  content: 'POPULATION: ';
+}
+
+.planet__description {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media (max-width: 1000px) {
+  .card-planet {
+    background-position-x: 0;
+    color: #fff;
+  }
+  .info-planet {
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+  }
+  .planet__title {
+    font-size: 2rem;
+  }
+}
